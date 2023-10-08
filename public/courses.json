@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "CV Writing",
+        "image": "https://img.freepik.com/premium-vector/cv-resume-job-interview-concept-writing-resume-laptop-with-personal-resume-vector-illustration_100456-2250.jpg?w=740",
+        "price": 49.99,
+        "short_description": "Craft a winning CV that opens doors.",
+        "detail_description": "Unlock the power of a well-crafted CV with our CV Writing course. A professionally written CV can open doors to your dream job by showcasing your skills and experience effectively. In this comprehensive course, you'll learn the art of creating a compelling CV that highlights your strengths, impresses employers, and lands you interviews. Invest in your career today and take the first step towards securing your desired job."
+    },
+    {
+        "id": 2,
+        "name": "Content Writing",
+        "image": "https://img.freepik.com/free-vector/content-writing-typographic-header-professional-speaker-journalist-write-speech-public-announcement-copywriter-creating-text-media-flat-vector-illustration_613284-2212.jpg?w=1380&t=st=1696737818~exp=1696738418~hmac=57af4b18b4daa6567f391fedaa30a900cc3c921395fda55045f66c0b4019f967",
+        "price": 59.99,
+        "short_description": "Master the art of content creation.",
+        "detail_description": "Content is king in today's digital landscape. Our Content Writing course equips you with the skills to become a proficient content creator. You'll learn how to captivate your audience with engaging and persuasive writing, optimize content for search engines, and create valuable content that drives traffic and conversions. Whether you're a budding writer or a business owner looking to enhance your online presence, this course will empower you to harness the power of words for success."
+    },
+    {
+        "id": 3,
+        "name": "Public Speaking",
+        "image": "https://img.freepik.com/premium-vector/handsome-man-holding-microphone-giving-speech-standing-illustration_598748-262.jpg?w=740",
+        "price": 69.99,
+        "short_description": "Become a confident and persuasive speaker.",
+        "detail_description": "Effective communication is the key to success in both personal and professional life. Our Public Speaking course will transform you into a confident and persuasive speaker. You'll learn essential techniques to overcome stage fright, deliver compelling speeches, engage your audience, and leave a lasting impact. Whether you're a student, business professional, or anyone who wants to excel in public speaking, this course will boost your confidence and communication skills."
+    },
+    {
+        "id": 4,
+        "name": "Digital Marketing",
+        "image": "https://img.freepik.com/premium-vector/rocket-boosting-digital-marketing-social-media-with-laptop_112255-1433.jpg?w=900",
+        "price": 79.99,
+        "short_description": "Master the digital marketing landscape.",
+        "detail_description": "In today's digital age, digital marketing is the cornerstone of business success. Our Digital Marketing course provides you with comprehensive knowledge and skills to thrive in the online world. From social media marketing to SEO, email marketing, and analytics, you'll gain a deep understanding of digital marketing strategies and tools. Invest in this course to unlock opportunities for career growth, increase brand visibility, and drive business results in the digital realm."
+    },
+    {
+        "id": 5,
+        "name": "Communication Skill",
+        "image": "https://img.freepik.com/free-vector/communication-concept-illustration-idea-discussion-interaction-exchanging_613284-1554.jpg?w=1380&t=st=1696738299~exp=1696738899~hmac=73135b4fbd8b44ccc862c50c10600033efa6d9203cbc6b2b609fd56f8b7432d0",
+        "price": 49.99,
+        "short_description": "Enhance your communication prowess.",
+        "detail_description": "Effective communication is at the heart of every successful interaction, both professionally and personally. Our Communication Skill course is designed to help you become a confident and skilled communicator. You'll learn how to convey your ideas clearly, actively listen, resolve conflicts, and build strong relationships. Investing in this course will empower you to excel in your career, improve your relationships, and navigate social and professional situations with ease."
+    },
+    {
+        "id": 6,
+        "name": "Email Writing",
+        "image": "https://img.freepik.com/free-vector/employee-working-holding-envelope_1223-26.jpg?w=740&t=st=1696737920~exp=1696738520~hmac=b434ce8866aad20c3eb33a8ef4fd2de2aaf96ea9a9f1740123b762d004c20197",
+        "price": 39.99,
+        "short_description": "Craft compelling email messages.",
+        "detail_description": "Emails are a crucial means of communication in the digital age, and well-written emails can make a significant impact. Our Email Writing course teaches you the art of crafting persuasive and effective email messages. You'll learn how to structure emails, engage recipients, and achieve your communication goals. Whether you're a business professional, entrepreneur, or job seeker, this course will sharpen your email writing skills and help you stand out in your inbox."
+    }
+]
