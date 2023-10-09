@@ -1,21 +1,33 @@
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
 
-    const {signIn} = useContext(AuthContext);
+    const { signIn, googleSignIn } = useContext(AuthContext);
 
     const handleSignIn = e => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
-        
+
         signIn(email, password)
-        .then(userCredential => {
-            const currentUser = userCredential.user;
-            console.log(currentUser); 
+            .then(userCredential => {
+                const currentUser = userCredential.user;
+                console.log(currentUser);
+            })
+            .catch(error => {
+                const errorMessage = error.message;
+            })
+    }
+
+
+    const handleGoogleSignIn = () => {
+        googleSignIn()
+        .then(result => {
+            const user = result.user;
         })
         .catch(error => {
             const errorMessage = error.message;
@@ -27,7 +39,7 @@ const Login = () => {
             <div className="hero-content flex-col ">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl text-center font-bold mb-10">Login now!</h1>
-                    
+
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form onSubmit={handleSignIn} className="card-body">
@@ -45,6 +57,10 @@ const Login = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
+                        </div>
+                        <div>
+                            <p>Sign in with <Link onClick={handleGoogleSignIn} className="text-blue-600 font-semibold">Google</Link></p>
+                            <p>New to this website? Go to <Link className="font-semibold text-blue-800" to='/register'>Register</Link> page.</p>
                         </div>
                     </form>
                 </div>

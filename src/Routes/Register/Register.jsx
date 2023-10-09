@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import { Link } from "react-router-dom";
 
 
 const Register = () => {
 
-    const {createUser} = useContext(AuthContext);
+    const { createUser } = useContext(AuthContext);
 
     const handleRegister = e => {
         e.preventDefault();
@@ -12,15 +13,23 @@ const Register = () => {
         const name = form.get('name');
         const email = form.get('email');
         const password = form.get('password');
+        const validation = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).{6,}$/;
+
+        if(validation.test(password)){
+            console.log('password is valid');
+        }
+        else{
+            return;
+        }
 
         createUser(email, password)
-        .then(userCredential => {
-            const currentUser = userCredential.user;
-            console.log(currentUser);
-        })
-        .catch(error => {
-            const errorMessage = error.message;
-        })
+            .then(userCredential => {
+                const currentUser = userCredential.user;
+                console.log(currentUser);
+            })
+            .catch(error => {
+                const errorMessage = error.message;
+            })
     }
 
     return (
@@ -52,6 +61,7 @@ const Register = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Register</button>
+                            <p className="mt-5">Already have an account? Go to <Link className="font-semibold text-blue-800 " to='/login'>Login</Link> page.</p>
                         </div>
                     </form>
                 </div>

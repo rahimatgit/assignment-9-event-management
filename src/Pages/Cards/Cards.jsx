@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 const Cards = ({ event }) => {
 
     const {id, name, image, short_description, detail_description, price} = event;
-    // const {id} = useParams();
+
 
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
