@@ -14,7 +14,7 @@ const Cards = ({ event }) => {
                 <p className="text-sm font-medium">{short_description}</p>
                 <p className="text-sm font-medium">Price: {price} $</p>
                 <div className="card-actions justify-start">
-                    <Link to={`/home/${id}`}>
+                    <Link to={`/details/${id}`}>
                     <button className="btn btn-primary">Show Details</button>
                     </Link>
                 </div>
