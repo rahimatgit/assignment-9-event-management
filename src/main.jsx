@@ -9,6 +9,7 @@ import Root from './Routes/Root/Root';
 import Home from './Pages/Home/Home';
 import Login from './Routes/Login/Login';
 import Register from './Routes/Register/Register';
+import EventDetails from './Pages/EventDetails/EventDetails';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/home/:id",
+        element: <EventDetails></EventDetails>
       },
       {
         path: "/login",

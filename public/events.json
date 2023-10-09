@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Event Planning and Strategy",
+        "image": "https://img.freepik.com/free-photo/group-business-people-having-meeting_53876-14819.jpg?w=1060&t=st=1696770639~exp=1696771239~hmac=8167f66246162642736cc0ffb04f99f8754cc4d0e4a555e6315a9af4e1e59edc",
+        "price": 499.99,
+        "short_description": "Strategize and plan successful events with our expert guidance. We work closely with you to define your event goals, create a comprehensive strategy, and meticulously plan every detail.",
+        "detail_description": "Our Event Planning and Strategy service is the key to organizing remarkable events. We work closely with you to define your event goals, create a comprehensive strategy, and meticulously plan every detail. Whether it's a conference, seminar, or workshop, our expertise ensures a seamless and impactful event that leaves a lasting impression on your attendees."
+    },
+    {
+        "id": 2,
+        "name": "Venue Selection and Booking",
+        "image": "https://img.freepik.com/premium-photo/interior-modern-conference-hall_263512-2099.jpg?w=1060",
+        "price": 299.99,
+        "short_description": "Find the perfect venue for your event with ease. We negotiate contracts, handle logistics, and ensure your event space suits your needs.",
+        "detail_description": "Selecting the right venue can make or break your event. Our Venue Selection and Booking service takes the hassle out of finding the ideal location. We negotiate contracts, handle logistics, and ensure your event space suits your needs. With us, you'll secure the perfect setting for a successful event, from conference centers to elegant banquet halls."
+    },
+    {
+        "id": 3,
+        "name": "Speaker and Trainer Sourcing",
+        "image": "https://img.freepik.com/free-photo/male-business-executive-giving-speech_107420-63792.jpg?w=1060&t=st=1696770837~exp=1696771437~hmac=2387c404e35cfa48326c7aef918de43319b8abb002887f14e10af2fe40cf1061",
+        "price": 399.99,
+        "short_description": "Discover expert speakers and trainers who captivate and inspire your audience. Our curation ensures your event is informative, engaging, and unforgettable.",
+        "detail_description": "Exceptional speakers and trainers are the heart of any educational event. Our Speaker and Trainer Sourcing service connects you with industry experts and thought leaders who captivate and inspire your audience. We carefully curate a roster of exceptional talent, ensuring your event is informative, engaging, and unforgettable."
+    },
+    {
+        "id": 4,
+        "name": "Marketing and Promotion",
+        "image": "https://img.freepik.com/free-photo/marketing-branding-planning-vision-goals-concept_53876-120045.jpg?w=900&t=st=1696770946~exp=1696771546~hmac=0a243104feeeffd24f02b5b689c64736da74b8a6d7e54bd79159517fe0c61096",
+        "price": 199.99,
+        "short_description": "Maximize event visibility and attendance with our effective marketing and promotion strategies. From social media campaigns to targeted email marketing, we ensure your event reaches the right audience.",
+        "detail_description": "Effective marketing and promotion are crucial for event success. Our Marketing and Promotion service harnesses the power of digital and traditional channels to drive attendance and engagement. From social media campaigns to targeted email marketing, we ensure your event reaches the right audience, resulting in increased participation and positive outcomes."
+    },
+    {
+        "id": 5,
+        "name": "Sponsorship and Partnership Management",
+        "image": "https://img.freepik.com/free-photo/business-partners-handshake-global-corporate-with-technology-concept_53876-102615.jpg?w=1060&t=st=1696771020~exp=1696771620~hmac=aed5365bb51bcb5ec567213ac865a500b2674b14ffb4165779899c6fc57f3b3a",
+        "price": 599.99,
+        "short_description": "Secure valuable sponsorships and partnerships with our expertise. We identify potential sponsors, negotiate agreements, and manage all sponsor-related activities.",
+        "detail_description": "Unlock new opportunities for your event with our Sponsorship and Partnership Management service. We identify potential sponsors and partners, negotiate mutually beneficial agreements, and manage all sponsor-related activities. By securing sponsorships, you can enhance your event's scale, quality, and financial viability."
+    },
+    {
+        "id": 6,
+        "name": "Content Creation and Documentation",
+        "image": "https://img.freepik.com/free-photo/young-woman-blogger-recording-video-camera_1303-27222.jpg?w=1060&t=st=1696771250~exp=1696771850~hmac=1384c67c2284688bad819b15cafa732da0dedb916a326463e31bfce46bc06fbd",
+        "price": 349.99,
+        "short_description": "Capture and create valuable event content that preserves and shares your event's value long after it's concluded.",
+        "detail_description": "Our Content Creation and Documentation service ensures that your event's knowledge and experiences live on. We capture event content through video, photography, and live-streaming and create post-event materials such as videos, reports, and presentations. Preserve and share your event's value long after it's concluded."
+    },
+    {
+        "id": 7,
+        "name": "Feedback Analysis and Improvement",
+        "image": "https://img.freepik.com/free-photo/customer-experience-creative-collage_23-2149346511.jpg?w=1060&t=st=1696771297~exp=1696771897~hmac=6d8a80b52a27018c311eb1c5bdab3f7d4649d0d36928795be731d47a8347389c",
+        "price": 249.99,
+        "short_description": "Leverage feedback for continuous improvement. We collect, analyze, and provide actionable insights to help you enhance future events.",
+        "detail_description": "Feedback is invaluable for growth. Our Feedback Analysis and Improvement service collects, analyzes, and interprets attendee feedback. We provide actionable insights to help you enhance future events, ensuring that each one is better than the last. Continuous improvement is the key to long-term success."
+    },
+    {
+        "id": 8,
+        "name": "Customized Event Mobile Apps",
+        "image": "https://img.freepik.com/free-photo/ui-ux-representations-with-smartphone_23-2150201874.jpg?w=740&t=st=1696771353~exp=1696771953~hmac=4feaa330346305263216c4cce0dccdd6251a1bffcba75e226b584e3bcba7c9a7",
+        "price": 199.99,
+        "short_description": "Engage attendees with custom event apps that enhance attendee experiences, providing schedules, session details, networking opportunities, and real-time updates.",
+        "detail_description": "Elevate attendee experiences with our Customized Event Mobile Apps. We develop personalized apps that provide event schedules, session details, networking opportunities, and real-time updates. Enhance attendee engagement and make your event memorable with a custom app that keeps participants informed and connected."
+    }
+]
