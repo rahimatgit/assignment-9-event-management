@@ -15,21 +15,21 @@ const Register = () => {
         const password = form.get('password');
         const validation = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).{6,}$/;
 
-        if(validation.test(password)){
+        if (validation.test(password)) {
             console.log('password is valid');
         }
-        else{
+        else {
             return;
         }
 
         createUser(email, password)
             .then(userCredential => {
                 const currentUser = userCredential.user;
-                console.log(currentUser);
             })
             .catch(error => {
                 const errorMessage = error.message;
             })
+
     }
 
     return (
