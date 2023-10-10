@@ -14,6 +14,7 @@ import AuthProvider from './AuthProvider/AuthProvider';
 import PrivateRoute from './Routes/PrivateRoute/PrivateRoute';
 import Cart from './Routes/Cart/Cart';
 import AboutUs from './Routes/AboutUs/AboutUs';
+import ErrorElement from './Routes/ErrorElement/ErrorElement';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <PrivateRoute><AboutUs></AboutUs></PrivateRoute>
+      },
+      {
+        path: "*",
+        element: <ErrorElement></ErrorElement>
       }
     ]
   },
