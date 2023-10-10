@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "image": "https://img.freepik.com/free-photo/close-up-happy-executive_1098-768.jpg?w=1060&t=st=1696866163~exp=1696866763~hmac=68b4f7f6d47111566614ab6120422f22d2ff3c931e33ce2053a1c88001583459",
+        "designation": "Event Director"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "image": "https://img.freepik.com/free-photo/elegant-man-with-folded-arms_1262-727.jpg?w=1060&t=st=1696866197~exp=1696866797~hmac=793d4655dcbe473d301539355743dd532a31f947fec01d14066ef2d2f236250b",
+        "designation": "Event Manager"
+    },
+    {
+        "id": 3,
+        "name": "Robert Johnson",
+        "image": "https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?w=740&t=st=1696866218~exp=1696866818~hmac=2c8facb06c29aa4717dce029af9954ddb22691621f381faec74a8813430533a6",
+        "designation": "Marketing Specialist"
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "image": "https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?w=360&t=st=1696866963~exp=1696867563~hmac=de304b8438b5171bd71517c16a977996fb43965a2ad45b9a6d2f0a7d0f7f799b",
+        "designation": "Venue Coordinator"
+    },
+    {
+        "id": 5,
+        "name": "Michael Wilson",
+        "image": "https://img.freepik.com/free-photo/businessman-with-blue-eyes-beard-standing-self-assured-formal-suit-holding-laptop-hand-gazing-pleased-assured-being-ambitious-successful_176420-22701.jpg?w=1060&t=st=1696866251~exp=1696866851~hmac=ab9c6f8e3d37c56437030457c7e71e04c3a331c4ca34a146b1938f2cfeec5826",
+        "designation": "Speaker Relations"
+    },
+    {
+        "id": 6,
+        "name": "Sarah Brown",
+        "image": "https://img.freepik.com/free-photo/portrait-happy-woman-with-digital-tablet_329181-11681.jpg?w=360&t=st=1696866985~exp=1696867585~hmac=033d3609c06fec34787ba23a8b711c3bda5159f7a807f6b7a05d99888be5bdf6",
+        "designation": "Content Creator"
+    },
+    {
+        "id": 7,
+        "name": "David Lee",
+        "image": "https://img.freepik.com/free-photo/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background_176420-45257.jpg?w=1060&t=st=1696866280~exp=1696866880~hmac=6428a4d44b73f964edbe4dd8f16871aae12011c8ef6bae4f87e6f1fd9b106acf",
+        "designation": "Sponsorship Manager"
+    },
+    {
+        "id": 8,
+        "name": "Linda Clark",
+        "image": "https://img.freepik.com/free-photo/good-looking-business-woman-with-arms-crossed_23-2147626300.jpg?w=1060&t=st=1696867007~exp=1696867607~hmac=a100f377c5d9da477b8ed3e1b9fa43660c5ced0a32abbc0137e8ec422617fccf",
+        "designation": "Feedback Analyst"
+    },
+    {
+        "id": 9,
+        "name": "Richard Garcia",
+        "image": "https://img.freepik.com/free-photo/businessman-with-crossed-arms_23-2147996582.jpg?w=1060&t=st=1696866307~exp=1696866907~hmac=1408a2091318b696a4d9d195c02eede2e211fd33dcc83d39f8eaf2804359c047",
+        "designation": "Event Planner"
+    },
+    {
+        "id": 10,
+        "name": "Olivia Martinez",
+        "image": "https://img.freepik.com/free-photo/confident-professional-businesswoman-cross-arms-chest-looking-selfassured-camera-smiling-standing-white-background_176420-48895.jpg?w=1060&t=st=1696867030~exp=1696867630~hmac=4332ca7579f029c649045f235dd5709647755429c256579ca72537d4687244ee",
+        "designation": "Mobile App Developer"
+    },
+    {
+        "id": 11,
+        "name": "William White",
+        "image": "https://img.freepik.com/free-photo/short-haired-man-business-suit-carrying-two-registers_549566-318.jpg?w=360&t=st=1696866340~exp=1696866940~hmac=d73d4b6a66bfc06d66f3a3e6b2c22bb88e393676eb6525a69cdf71be4bb5dd94",
+        "designation": "Partnership Coordinator"
+    },
+    {
+        "id": 12,
+        "name": "Amanda Taylor",
+        "image": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg?w=900&t=st=1696867054~exp=1696867654~hmac=685b1330776683fc0bf1ecaeeba2da27b13434034512e9e264eea12e28e3a182",
+        "designation": "Event Strategist"
+    },
+    {
+        "id": 13,
+        "name": "James Harris",
+        "image": "https://img.freepik.com/free-photo/handsome-young-man-student-businessman-jacket-holds-his-arms-crossed-isolated-light-grey-wall_231208-6137.jpg?w=1060&t=st=1696866361~exp=1696866961~hmac=a56ce5e25a1bd5d01344c6893a65fe036ea4e60faef0f0dc169be0e18f61c7c4",
+        "designation": "Social Media Manager"
+    },
+    {
+        "id": 14,
+        "name": "Susan Nelson",
+        "image": "https://img.freepik.com/free-photo/business-man-curly-cute-handsome-guy-black-suit-red-tie-glasses-with-crossed-hands_140725-162616.jpg?w=1060&t=st=1696866381~exp=1696866981~hmac=631446f2a7f95811b14ae9a0a772718c88c4a954780ab05b0955dbcec152d8a3",
+        "designation": "Documentation Specialist"
+    },
+    {
+        "id": 15,
+        "name": "Daniel Robinson",
+        "image": "https://img.freepik.com/free-photo/elegant-man-with-crossed-amrs_23-2147574161.jpg?1&w=1060&t=st=1696866400~exp=1696867000~hmac=ac2693762629bd7783240066a11dc4776e83427866b4457140c84819820b297e",
+        "designation": "Sponsorship Strategist"
+    }
+]

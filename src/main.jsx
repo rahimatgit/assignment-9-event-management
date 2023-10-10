@@ -12,9 +12,9 @@ import Register from './Routes/Register/Register';
 import EventDetails from './Pages/EventDetails/EventDetails';
 import AuthProvider from './AuthProvider/AuthProvider';
 import PrivateRoute from './Routes/PrivateRoute/PrivateRoute';
-import Cart from './Routes/Cart/Cart';
 import AboutUs from './Routes/AboutUs/AboutUs';
 import ErrorElement from './Routes/ErrorElement/ErrorElement';
+import OurTeam from './Routes/OurTeam/OurTeam';
 
 const router = createBrowserRouter([
   {
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         element: <Register></Register>
       },
       {
-        path: "/cart",
-        element: <PrivateRoute><Cart></Cart></PrivateRoute>
+        path: "/team",
+        element: <PrivateRoute><OurTeam></OurTeam></PrivateRoute>
       },
       {
         path: "about",

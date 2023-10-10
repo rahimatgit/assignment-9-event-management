@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "../Banner/Banner";
 import Cards from "../Cards/Cards";
 import Footer from "../Footer/Footer";
+import Accordion from "../Accordion/Accordion";
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
             <Banner></Banner>
             <div className="w-[80%] mx-auto">
                 <h1 className="mt-12 mb-6 text-5xl text-center font-semibold">Our Services</h1>
-                <p>At [Your Company Name], we offer a comprehensive suite of services to elevate your educational events. Our expertise includes event planning and strategy, venue selection and booking, speaker and trainer sourcing, and targeted marketing and promotion to ensure your event aligns with your goals and attracts the right audience.
+                <p>At EduVentsPro, we offer a comprehensive suite of services to elevate your educational events. Our expertise includes event planning and strategy, venue selection and booking, speaker and trainer sourcing, and targeted marketing and promotion to ensure your event aligns with your goals and attracts the right audience.
 
                     We excel in sponsorship and partnership management, securing support to enhance your event's impact. Our commitment to knowledge-sharing is evident in our content creation and documentation services, preserving valuable insights for attendees and future endeavors. We take feedback seriously, analyzing it for continuous improvement.
 
@@ -28,6 +29,7 @@ const Home = () => {
                     events.map(event => <Cards key={event.id} event={event}></Cards>)
                 }
             </div>
+            <Accordion></Accordion>
             <Footer></Footer>
         </div>
     );
