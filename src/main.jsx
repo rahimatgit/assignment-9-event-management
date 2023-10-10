@@ -12,6 +12,8 @@ import Register from './Routes/Register/Register';
 import EventDetails from './Pages/EventDetails/EventDetails';
 import AuthProvider from './AuthProvider/AuthProvider';
 import PrivateRoute from './Routes/PrivateRoute/PrivateRoute';
+import Cart from './Routes/Cart/Cart';
+import AboutUs from './Routes/AboutUs/AboutUs';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/cart",
+        element: <PrivateRoute><Cart></Cart></PrivateRoute>
+      },
+      {
+        path: "about",
+        element: <PrivateRoute><AboutUs></AboutUs></PrivateRoute>
       }
     ]
   },

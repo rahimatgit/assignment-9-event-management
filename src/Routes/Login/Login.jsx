@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-
+import toast, { Toaster } from 'react-hot-toast';
 
 const Login = () => {
 
@@ -22,6 +22,7 @@ const Login = () => {
             })
             .catch(error => {
                 const errorMessage = error.message;
+                toast.error("Failed to login! Invalid email or password.");
             })
     }
 
@@ -34,6 +35,7 @@ const Login = () => {
         })
         .catch(error => {
             const errorMessage = error.message;
+            toast.error("Failed to login! Invalid email or password.");
         })
     }
 
@@ -68,6 +70,7 @@ const Login = () => {
                     </form>
                 </div>
             </div>
+            <Toaster></Toaster>
         </div>
     );
 };

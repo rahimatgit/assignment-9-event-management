@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Link } from "react-router-dom";
-
+import toast, { Toaster } from 'react-hot-toast';
 
 const Register = () => {
 
@@ -19,15 +19,17 @@ const Register = () => {
             console.log('password is valid');
         }
         else {
-            return;
+            return toast.error('Failed to register! Your password must have at least a capital letter, a special character, and not less than 6 digits.');
         }
 
         createUser(email, password)
             .then(userCredential => {
                 const currentUser = userCredential.user;
+                toast.success('Your registration is successful.')
             })
             .catch(error => {
                 const errorMessage = error.message;
+                console.log(errorMessage);
             })
 
     }
@@ -66,6 +68,7 @@ const Register = () => {
                     </form>
                 </div>
             </div>
+            <Toaster></Toaster>
         </div>
     );
 };
