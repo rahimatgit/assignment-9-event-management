@@ -25,7 +25,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="navbar bg-base-100 w-[80%] mx-auto mb-5">
+        <div className="navbar bg-base-100 w-[80%] mx-auto mb-5 flex flex-col md:flex-row lg:flex-row">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -45,14 +45,14 @@ const Navbar = () => {
             <div className="navbar-end">
                 {
                     user ?
-                        <div className="flex items-center ">
-                            <div className="avatar mx-3">
+                        <div className="flex flex-col mt-5 md:mt-0 lg:mt-0 md:flex-row lg:flex-row items-center ">
+                            <div className="avatar mx-3 mt-2 md:mt-0 lg:mt-0">
                                 <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                     <img src={user.photoURL} />
                                 </div>
                             </div>
-                            <p className="mx-3">{user.displayName}</p>
-                            <button onClick={handleLogout} className="btn btn-secondary">Log Out</button>
+                            <p className="mx-3 mt-2 md:mt-0 lg:mt-0">{user.displayName}</p>
+                            <button onClick={handleLogout} className="btn btn-secondary mt-2 md:mt-0 lg:mt-0">Log Out</button>
                         </div>
                         :
                         ' '

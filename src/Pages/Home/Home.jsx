@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Cards from "../Cards/Cards";
 import Footer from "../Footer/Footer";
 import Accordion from "../Accordion/Accordion";
+import Reviews from "../Reviews/Reviews";
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="w-[80%] mx-auto">
+            <div data-aos="zoom-out-up" data-aos-duration="3000" className="w-[80%] mx-auto">
                 <h1 className="mt-12 mb-6 text-5xl text-center font-semibold">Our Services</h1>
                 <p>At EduVentsPro, we offer a comprehensive suite of services to elevate your educational events. Our expertise includes event planning and strategy, venue selection and booking, speaker and trainer sourcing, and targeted marketing and promotion to ensure your event aligns with your goals and attracts the right audience.
 
@@ -29,6 +30,7 @@ const Home = () => {
                     events.map(event => <Cards key={event.id} event={event}></Cards>)
                 }
             </div>
+            <Reviews></Reviews>
             <Accordion></Accordion>
             <Footer></Footer>
         </div>

@@ -7,7 +7,9 @@ const Cards = ({ event }) => {
 
 
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" className="card card-compact bg-base-100 shadow-xl">
             <figure><img className="w-full h-[250px]" src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title font-semibold">{name}</h2>
